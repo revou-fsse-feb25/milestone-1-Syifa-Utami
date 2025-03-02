@@ -1,0 +1,11 @@
+@import url(styles/button.css);
+@import url(styles/typography.css);
+body {
+    font-family: Georgia, serif;
+    background-color:aliceblue;
+    margin: 70px;
+}
+
+img {
+    width: 40%;
+}

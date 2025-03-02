@@ -14,3 +14,4 @@ This is for branding purposes, and at the current moment, a beta website. This w
 ## Technologies Used
 
 **Platform:** VS Code, html, CSS, node
+**Github Page Link**: https://revou-fsse-feb25.github.io/milestone-1-Syifa-Utami/

@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    color:rgb(63, 67, 187);
+}
+h1 {
+    font-size:xx-large;
+    color: rgb(34, 35, 36);
+}
+h2 {
+    color:rgb(47, 53, 210);
+    font-size: 20px;
+}
+footer {
+    font-size: 11px;
+    font-family:'Courier New', Courier, monospace
+}
+#quote {
+    text-align: center;
+    font-size: 30px;
+    font-style:italic;
+    color: rgb(179, 63, 187);
+} 
