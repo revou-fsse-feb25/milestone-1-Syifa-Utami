@@ -17,7 +17,7 @@
 - ensure that each page is a responsive webpage (details follow)
 
  ### main page
- <img src="image documentation/home.png">
+![screenshoot](image documentation/home.png)
  <p>Main or "Home" page is made for introduction and summary for the webpage. It talks about the purpose of the webpage.
 
 #### Features
