@@ -1,0 +1,73 @@
+.card-container {
+    display: flex;
+    padding:2vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+}
+.card {
+    background: white;
+    margin:20px;
+    height:auto;
+    width: 300px;
+    border-radius: 15px;
+
+
+}
+.card:hover {
+    background-color: rgb(179, 63, 187);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card p {
+    padding: 10px 20px 20px 20px;
+}
+.card h3 {
+    text-align: center;
+}
+
+
+.card-image {
+    background-color:rgb(176, 221, 221);
+    height:13vw;
+    margin-bottom: 15px;
+    background-size: cover ;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-1 {
+    background-image: url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6raYLjyH11Umgs86wx3lNF/b54297568e758730aa65f2a1c92258c7/GettyImages-1211395020.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000');
+}
+.image-2 {
+    background-image:url('https://lwks.com/hubfs/Editor2-min.webp');
+}
+.image-3 {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/8ToUvuPXxcD5ANh3D9Sr8L.jpg');
+}
+
+@media screen and (max-width: 900px) {
+    .card-container {
+        display: flex;
+        padding:2vw;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card {
+        background: white;
+        margin:10px;
+        height:auto;
+        width: auto;
+        border-radius: 15px;
+    }
+    .card-image {
+        background-color:rgb(176, 221, 221);
+        height:20vw;
+        margin-bottom: 15px;
+        background-size: cover ;
+        border-radius: 15px 15px 0 0;
+    }
+
+}

@@ -1,0 +1,20 @@
+
+table {
+    border-collapse: collapse;
+    width: 70vw;
+
+
+}
+table td, table tr{
+    border: 1px solid rgb(179, 63, 187);
+    padding:1vw;
+
+}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:rgb(63, 67, 187);
+    color: white;
+
+} 

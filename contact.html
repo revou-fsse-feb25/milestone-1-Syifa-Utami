@@ -4,46 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Syifa Utami's Website</title>
-    <meta name="Syifa's website profile about her programming and digital marketing experience" content="kerja lembur bagai kuda">
-    <!-- styling the html -->
-    <style>
-        body {
-          font-family: Georgia, serif;
-          background-color:blanchedalmond;
-          margin: 70px;
-        }
-        header {
-            text-align: center;
-            font-size: 30px;
-        }
-        h1 {
-            font-size:xx-large;
-        }
-        h2 {
-            color:sienna;
-            font-size: 20px;
-        }
-        footer {
-            font-size: 11px;
-            font-family:'Courier New', Courier, monospace
-        }
-        img {
-            width: 40%;
-        }
-        </style>
+    <meta name="Syifa's contact information" content="Interested? contact me">
+    <link rel="stylesheet" href="assets/index.css">
 </head>
 <body> 
     <header>
         <i> Contact </i> 
     </header>
-    <nav> 
-        <!-- making a list -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav>
+        <div id="flex-container-nav" class="item"> 
+            <div> <a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="projects.html">Projects</a></div>
+            <div><a href="contact.html">Contact</a></div>
+        </div>
     </nav>
     <main>
         <section>
@@ -55,11 +29,11 @@
         </section>
         <section>
         <h2> Or send a message below </h2>
-        <table border="1" width="100%">
+        <table>
             <form action="backend.com" method="POST"></form>
             <!-- tr is to make row (horizontal). td is column (vertical) -->
                 <tr>  
-                    <td colspan="2" align="center">Form</td> 
+                    <th colspan="2" align="center">Form</th> 
                 </tr>
                 <tr>
                     <td> <label for="customer-name"> Name </label> </td>
@@ -79,7 +53,7 @@
                 </tr>
                 <tr>
                     <td> <label for="customer-color"> Favorite color </label> </td>
-                    <td> <input type="color" placeholder="Spongebob Squarepants" id= "customer-color" name="color"/></td>
+                    <td> <input type="color" placeholder="white" id= "customer-color" name="color"/></td>
                 </tr>
                 <tr>
                     <td>Service</td>

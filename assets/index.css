@@ -1,11 +1,20 @@
 @import url(styles/button.css);
 @import url(styles/typography.css);
+@import url(styles/grid.css);
+@import url(styles/table.css);
+@import url(styles/project-card.css);
+
 body {
     font-family: Georgia, serif;
-    background-color:aliceblue;
-    margin: 70px;
+    background-color:rgb(245, 244, 251);
+    margin: 30px 0px;
 }
 
 img {
-    width: 40%;
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+main {
+    margin: 80px;
 }

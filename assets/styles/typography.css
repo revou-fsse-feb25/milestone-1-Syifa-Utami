@@ -1,23 +1,34 @@
 header {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5rem;
     color:rgb(63, 67, 187);
 }
 h1 {
-    font-size:xx-large;
+    font-size: 2rem;
     color: rgb(34, 35, 36);
 }
 h2 {
-    color:rgb(47, 53, 210);
-    font-size: 20px;
+    color:rgb(63, 67, 187);
+    font-size: 1.5rem;
 }
 footer {
-    font-size: 11px;
-    font-family:'Courier New', Courier, monospace
+    font-size: 0.5ren;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
 }
 #quote {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.3rem;
     font-style:italic;
     color: rgb(179, 63, 187);
-} 
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(63, 67, 187);
+}
+

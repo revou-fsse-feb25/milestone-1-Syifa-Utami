@@ -6,69 +6,60 @@
     <title>Syifa Utami's Website</title>
     <meta name="Syifa's website profile about her programming and digital marketing experience" content="kerja lembur bagai kuda">
     <!-- styling the html -->
-    <style>
-        body {
-          font-family: Georgia, serif;
-          background-color:blanchedalmond;
-          margin: 70px;
-        }
-        header {
-            text-align: center;
-            font-size: 30px;
-        }
-        h1 {
-            font-size:xx-large;
-        }
-        h2 {
-            color:sienna;
-            font-size: 20px;
-        }
-        footer {
-            font-size: 11px;
-            font-family:'Courier New', Courier, monospace
-        }
-        img {
-            width: 100%;
-        }
-        .grid-content {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px;
-        }
-        </style>
+    <link rel="stylesheet" href="assets/index.css">
+
 </head>
 <body> 
     <header>
         <i> Projects </i> 
     </header>
-    <nav> 
-        <!-- making a list -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav>
+        <div id="flex-container-nav" class="item"> 
+            <div> <a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="projects.html">Projects</a></div>
+            <div><a href="contact.html">Contact</a></div>
+        </div>
     </nav>
     <main>
-        <p>Explore my work in digital marketing, content creation, and web management. Below are some featured projects showcasing my skills in strategy, design, and execution.        </p>
+        <h1> See my projects</h1>
+        <section>
+        <p>Explore my work in digital marketing, content creation, and web management. Below are some featured projects showcasing my skills in strategy, design, and execution. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ratione tempora sed blanditiis dolor quod quisquam consequatur, neque, esse eius at accusantium enim aperiam totam odio eaque incidunt soluta ut! </p>
+        <h2>My achievements</h2>
+        <section>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-image image-1"></div>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, repudiandae accusantium necessitatibus debitis dignissimos quasi.</p>
+                </div>
+                <div class="card">
+                    <div class="card-image image-2"></div>
+                    <h3>Editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, provident?Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <div class="card-image image-3"> </div>
+                    <h3>designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur animi, excepturi unde dignissimos hic autem.</p>
+                </div>
+        </section>
         <h2> Photo & Video Editing </h2>
-        <div class="grid-content">
-            <img src="images/cat1.png">
-            <img src="images/cat1.png">
-            <img src="images/cat1.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sapiente possimus optio saepe cum corporis voluptatibus ducimus. Eum, exercitationem dolore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ut corporis nihil ex incidunt. Consequatur, ullam velit. Nihil ad non mollitia quod. Cumque, nulla! Pariatur repudiandae doloribus adipisci provident molestias.</p>
+        <div class="parent">
+            <div class="div1"><img src="images/astarion.jpg"> </div>
+            <div class="div2"><img src="images/cat1.png"></div>
+            <div class="div3"><img src="images/cat1.png"></div>
+            <div class="div4"><img src="images/cat1.png"></div>
         </div>
-        <h2> social media </h2>
-        <div class="grid-content">
-            <img src="images/cat3.jpeg">
-            <img src="images/cat3.jpeg">
-            <img src="images/cat3.jpeg">
-        </div>
-        <h1> Interested? Get in touch with me :) </h1>
-        <button type="button" onclick="location.href='contact.html'"> 
-            contact me 
-        </button>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, qui voluptatibus eligendi similique quam obcaecati. Fugiat nemo veritatis, amet hic inventore eaque necessitatibus commodi sint neque incidunt autem nostrum veniam maiores cumque suscipit reprehenderit, deserunt excepturi voluptatem nesciunt sed! Consequatur eligendi similique nemo ipsum molestiae laudantium. Soluta dolore id fugit!</p>
+        </section>
+        <section>
+            <h1> Interested? Get in touch with me :) </h1>
+            <button type="button" onclick="location.href='contact.html'"> 
+                contact me 
+            </button>
+        </section>
     </main>
         
 </body>
