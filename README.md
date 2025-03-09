@@ -29,7 +29,7 @@
 - responsive picture - the float disables when it's in narrower devices.
 
 ### about me 
-<img src="image documentation/about.png">
+<img src="Image documentation">
 <p> About me page highlights the summary of skills and experiences. It serves an introduction before going to the projects page. 
 
 #### features
