@@ -17,7 +17,7 @@
 - ensure that each page is a responsive webpage (details follow)
 
  ### main page
- <img src="image documentation/home.png">
+<img src="Image documentation/home.png">
  <p>Main or "Home" page is made for introduction and summary for the webpage. It talks about the purpose of the webpage.
 
 #### Features
@@ -29,7 +29,7 @@
 - responsive picture - the float disables when it's in narrower devices.
 
 ### about me 
-<img src="image documentation/about.png">
+<img src="Image documentation/about.png">
 <p> About me page highlights the summary of skills and experiences. It serves an introduction before going to the projects page. 
 
 #### features
@@ -37,8 +37,8 @@
 - button directing to projects page to showcase the proof of experiences.
 
 ### projects page
-<img src="image documentation/project-1.png">
-<img src="image documentation/project-2.png">
+<img src="Image documentation/project-1.png">
+<img src="Image documentation/project-2.png">
 <p> "projects" serves as one of the most trivial page, so user interactivity is needed. It has the most features.
 
 #### features
@@ -47,15 +47,22 @@
 - both features collapse into one line in mobile devices. 
 
 ### contact 
-<img src="image documentation/contact.png">
+<img src="Image documentation/contact.png">
 <p> it serves as a way to contact me.
 
 #### features
 - table form that POST to the backend.
 - social media contact
 
+##video
+
+
+https://github.com/user-attachments/assets/b8400aaa-28b8-4541-87dc-896ad7bd03a9
+
+
 
 ## Technologies Used
 
 **Platform:** VS Code, html, CSS, node
 **Github Page Link**: https://revou-fsse-feb25.github.io/milestone-1-Syifa-Utami/
+
