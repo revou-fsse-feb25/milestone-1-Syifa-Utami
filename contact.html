@@ -30,22 +30,22 @@
         <section>
         <h2> Or send a message below </h2>
         <table>
-            <form action="backend.com" method="POST"></form>
+            <form action="backend.com" method="POST">
             <!-- tr is to make row (horizontal). td is column (vertical) -->
                 <tr>  
                     <th colspan="2" align="center">Form</th> 
                 </tr>
                 <tr>
-                    <td> <label for="customer-name"> Name </label> </td>
-                    <td> <input type="text" placeholder="Spongebob Squarepants" id= "customer-name" name="name"/></td>
+                    <td> <label for="customer-name"> Name* </label> </td>
+                    <td> <input type="text" placeholder="Spongebob Squarepants" id= "customer-name" name="name" required/></td>
                 </tr>
                 <tr>
-                    <td> <label for="customer-email"> Email </label> </td>
-                    <td> <input type="email" placeholder="S.Squarepants@Krabbypatty.com" id= "customer-email" name="gmail"/></td>
+                    <td> <label for="customer-email"> Email* </label> </td>
+                    <td> <input type="email" placeholder="S.Squarepants@Krabbypatty.com" id= "customer-email" name="gmail" required/></td>
                 </tr>
                 <tr>
-                    <td> <label for="customer-pass"> Password </label> </td>
-                    <td> <input type="password" placeholder="type your password" id= "customer-pass" name="password"/></td>
+                    <td> <label for="customer-pass"> Password* </label> </td>
+                    <td> <input type="password" placeholder="type your password" id= "customer-pass" name="password" required/> </td>
                 </tr>
                 <tr>
                     <td> <label for="customer-deadline"> Deadline </label> </td>
@@ -71,7 +71,7 @@
                         <input type="reset" value="clear all"> 
                     </td>
                 </tr>
-                
+            </form>   
         </table>
         </section>
         
